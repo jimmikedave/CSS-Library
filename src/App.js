@@ -11,8 +11,10 @@ import SideNavigation from './components/SideNavigation';
 export default function App() {
   return (
     <Router>
-      <div className="app">
+      <div className="app-container">
+        <div className="content">
           <SideNavigation />
+        </div>
       </div>
     </Router>
     

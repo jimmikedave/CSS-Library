@@ -1,0 +1,23 @@
+.app-container {
+    max-width: 120rem;
+    margin: 8rem auto;
+    background-color: orange;
+    
+    min-height: 50rem;
+}
+
+.content {
+    display: flex;
+    height: 80vh;
+}
+  
+.side-nav {
+    font-size: 1.4rem;
+    background-color: aqua;
+
+    flex: 0 0 18%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
