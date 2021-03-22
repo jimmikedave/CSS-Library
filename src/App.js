@@ -11,7 +11,7 @@ import SideNavigation from './components/SideNavigation';
 export default function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="app">
           <SideNavigation />
       </div>
     </Router>
