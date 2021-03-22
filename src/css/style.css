@@ -1,8 +1,36 @@
+:root {
+  --color-primary: rgb(255, 230, 0);
+  --color-primary-light: rgb(253, 233, 52);
+  --color-primary-dark: rgb(201, 181, 3);
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  color: var(--color-grey-dark-2);
+  background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
+  min-height: 100vh; }
+
 .app {
   background-color: orange;
-  height: 100vh;
   display: flex;
   justify-content: center; }
 
 .side-nav {
+  font-size: 1.4rem;
   background-color: aqua; }
