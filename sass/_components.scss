@@ -1,3 +1,30 @@
 .navigation {
+    font-size: 1.4rem;
     list-style: none;
+    margin-top: 3.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__item {
+        border: 2px solid red;
+
+    }
+
+    &__link:link,
+    &__link:visited {
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: block;
+        padding: 1.5rem 3rem;
+
+        display: flex;
+        align-items: center;
+    }
+
+    &__link:hover {
+        color: var(--color-primary-light);
+    }
 }

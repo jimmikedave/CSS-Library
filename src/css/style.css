@@ -1,7 +1,7 @@
 :root {
-  --color-primary: rgb(255, 230, 0);
-  --color-primary-light: rgb(253, 233, 52);
-  --color-primary-dark: rgb(201, 181, 3);
+  --color-primary: rgb(42, 114, 45);
+  --color-primary-light: rgb(119, 218, 122);
+  --color-primary-dark: rgb(2, 71, 6);
   --color-grey-dark-1: #333;
   --color-grey-dark-2: #777;
   --color-grey-dark-3: #999; }
@@ -27,12 +27,29 @@ body {
   min-height: 100vh; }
 
 .navigation {
-  list-style: none; }
+  font-size: 1.4rem;
+  list-style: none;
+  margin-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .navigation__item {
+    border: 2px solid red; }
+  .navigation__link:link, .navigation__link:visited {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 1.5rem 3rem;
+    display: flex;
+    align-items: center; }
+  .navigation__link:hover {
+    color: var(--color-primary-light); }
 
 .app-container {
   max-width: 120rem;
   margin: 8rem auto;
-  background-color: orange;
+  background-color: #07116b;
   min-height: 50rem; }
 
 .content {
@@ -41,8 +58,9 @@ body {
 
 .side-nav {
   font-size: 1.4rem;
-  background-color: aqua;
+  background-color: var(--color-grey-dark-1);
   flex: 0 0 18%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }

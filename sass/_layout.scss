@@ -1,7 +1,7 @@
 .app-container {
     max-width: 120rem;
     margin: 8rem auto;
-    background-color: orange;
+    background-color: rgb(7, 17, 107);
     
     min-height: 50rem;
 }
@@ -13,11 +13,12 @@
   
 .side-nav {
     font-size: 1.4rem;
-    background-color: aqua;
+    background-color: var(--color-grey-dark-1);
 
     flex: 0 0 18%;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
