@@ -4,7 +4,7 @@ const SideNavigation = () => {
     return (
         <div className="side-nav">
             <ul className="navigation">
-            <li className="navigation__item">
+                <li className="navigation__item">
                     <a href="#" class="navigation__link">
                         <span>Home</span>
                     </a>
