@@ -1,3 +1,5 @@
+///////////////////////////////////////////////
+///// SIDE NAVIGATION
 .navigation {
     font-size: 1.4rem;
     list-style: none;
@@ -27,4 +29,13 @@
     &__link:hover {
         color: var(--color-primary-light);
     }
+}
+
+///////////////////////////////////////////////
+///// LEGAL
+.legal {
+    font-size: 1.2rem;
+    color: var(--color-grey-dark-2);
+    text-align: 2.5rem;
+    padding: 2.5rem;
 }

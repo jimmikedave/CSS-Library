@@ -46,10 +46,16 @@ body {
   .navigation__link:hover {
     color: var(--color-primary-light); }
 
+.legal {
+  font-size: 1.2rem;
+  color: var(--color-grey-dark-2);
+  text-align: 2.5rem;
+  padding: 2.5rem; }
+
 .app-container {
   max-width: 120rem;
   margin: 8rem auto;
-  background-color: #07116b;
+  background-color: #02772f;
   min-height: 50rem; }
 
 .content {
