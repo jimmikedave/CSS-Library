@@ -2,6 +2,7 @@
   --color-primary: rgb(42, 114, 45);
   --color-primary-light: rgb(119, 218, 122);
   --color-primary-dark: rgb(2, 71, 6);
+  --color-secondary: rgb(23, 105, 138);
   --color-grey-dark-1: #333;
   --color-grey-dark-2: #777;
   --color-grey-dark-3: #999; }
@@ -34,15 +35,30 @@ body {
   flex-direction: column;
   justify-content: space-between; }
   .navigation__item {
-    border: 2px solid red; }
+    position: relative; }
+    .navigation__item:not(:last-child) {
+      margin-bottom: .5rem; }
+  .navigation__item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0rem;
+    height: 100%;
+    width: 3px;
+    background-color: var(--color-secondary);
+    transform: scaleY(0);
+    transition: transform 0.2s, width 0.4s cubic-bezier(1, 0.02, 0.02, 1) 0.2s; }
+  .navigation__item:hover::before {
+    transform: scaleY(1);
+    width: 100%; }
   .navigation__link:link, .navigation__link:visited {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     display: block;
-    padding: 1.5rem 3rem;
-    display: flex;
-    align-items: center; }
+    padding: 1.5rem 4.2rem;
+    position: relative;
+    z-index: 10; }
   .navigation__link:hover {
     color: var(--color-primary-light); }
 
@@ -60,7 +76,7 @@ body {
 
 .content {
   display: flex;
-  height: 80vh; }
+  min-height: 80vh; }
 
 .side-nav {
   font-size: 1.4rem;
