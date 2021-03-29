@@ -5,22 +5,22 @@ const SideNavigation = () => {
         <div className="side-nav">
             <ul className="navigation">
                 <li className="navigation__item">
-                    <a href="#" class="navigation__link">
+                    <a href="#" className="navigation__link">
                         <span>Home</span>
                     </a>
                 </li>
                 <li className="navigation__item">
-                    <a href="#" class="navigation__link">
+                    <a href="#" className="navigation__link">
                         <span>Flex Direction</span>
                     </a>
                 </li>
                 <li className="navigation__item">
-                    <a href="#" class="navigation__link">
+                    <a href="#" className="navigation__link">
                         <span>Modern Landing</span>
                     </a>
                 </li>
                 <li className="navigation__item">
-                    <a href="#" class="navigation__link">
+                    <a href="#" className="navigation__link">
                         <span>Hover</span>
                     </a>
                 </li>

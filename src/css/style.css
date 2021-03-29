@@ -30,19 +30,16 @@ body {
 .navigation {
   font-size: 1.4rem;
   list-style: none;
-  margin-top: 3.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; }
+  margin-top: 3rem; }
   .navigation__item {
     position: relative; }
     .navigation__item:not(:last-child) {
-      margin-bottom: .5rem; }
+      margin-bottom: 1rem; }
   .navigation__item::before {
     content: "";
     position: absolute;
     top: 0;
-    left: 0rem;
+    left: 0;
     height: 100%;
     width: 3px;
     background-color: var(--color-secondary);
@@ -56,7 +53,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     display: block;
-    padding: 1.5rem 4.2rem;
+    padding: 1.3rem 4.3rem;
     position: relative;
     z-index: 10; }
   .navigation__link:hover {
