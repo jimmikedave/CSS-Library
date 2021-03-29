@@ -1,6 +1,7 @@
 .app-container {
     max-width: 120rem;
     margin: 8rem auto;
+    font-size: 1.4rem;
     background-color: rgb(2, 119, 47);
     
     min-height: 50rem;
@@ -12,7 +13,7 @@
 }
   
 .side-nav {
-    font-size: 1.4rem;
+    font-size: inherit;
     background-color: var(--color-grey-dark-1);
 
     flex: 0 0 18%;
@@ -22,3 +23,22 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.container {
+    font-size: inherit;
+    border: 2px solid red;
+
+    display: flex;
+    // justify-content: center;
+    flex: 1;
+
+    &__content {
+        border: 1px solid peru; 
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+}
+
