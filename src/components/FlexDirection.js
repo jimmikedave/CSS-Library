@@ -2,8 +2,10 @@ import React from 'react';
 
 const FlexDirection = () => {
     return (
-        <div>
-            Flex Direction
+        <div className="container">
+            <div className="container__content">
+                Flex Direction
+            </div>
         </div>
     )
 }

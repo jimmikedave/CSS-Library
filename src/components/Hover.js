@@ -2,8 +2,10 @@ import React from 'react';
 
 const Hover = () => {
     return (
-        <div>
-            Hover!
+        <div className="container">
+            <div className="container__content">
+                Hover!
+            </div>
         </div>
     )
 }

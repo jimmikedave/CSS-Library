@@ -1,28 +1,41 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const SideNavigation = () => {
     return (
         <div className="side-nav">
             <ul className="navigation">
                 <li className="navigation__item">
-                    <a href="#" className="navigation__link">
+                    <NavLink 
+                        className="navigation__link"
+                        to="/home"
+                    >
                         <span>Home</span>
-                    </a>
+                    </NavLink>
                 </li>
                 <li className="navigation__item">
-                    <a href="#" className="navigation__link">
+                    <NavLink 
+                        className="navigation__link"
+                        to="/flex-direction"
+                    >
                         <span>Flex Direction</span>
-                    </a>
+                    </NavLink>
                 </li>
                 <li className="navigation__item">
-                    <a href="#" className="navigation__link">
+                    <NavLink 
+                        className="navigation__link"
+                        to="/modern-landing"
+                    >
                         <span>Modern Landing</span>
-                    </a>
+                    </NavLink>
                 </li>
                 <li className="navigation__item">
-                    <a href="#" className="navigation__link">
+                    <NavLink 
+                        className="navigation__link"
+                        to="/hover"
+                    >
                         <span>Hover</span>
-                    </a>
+                    </NavLink>
                 </li>
             </ul>
             <div className="legal">
