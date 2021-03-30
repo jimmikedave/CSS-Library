@@ -36,9 +36,29 @@
         border: 1px solid peru; 
 
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         flex: 1;
     }
+
+    &__content--home {
+        color: #fff;
+    }
+
+    &__title {
+        background-color: purple;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 3rem;
+    }
+
+    &__description {
+        background-color: palevioletred;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    
 }
 

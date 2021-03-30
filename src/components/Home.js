@@ -3,8 +3,13 @@ import React from 'react';
 const Home = () => {
     return (
         <div className="container">
-            <div className="container__content">
-                Home
+            <div className="container__content container__content--home">
+                <div className="container__title">
+                    <h1>Welcome to Jim David's CSS Library</h1>
+                </div>
+                <div className="container__description">
+                    <p>CSS effects are tested and kept here for future development.</p>
+                </div>
             </div>
         </div>
     )

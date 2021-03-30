@@ -93,6 +93,18 @@ body {
   .container__content {
     border: 1px solid peru;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex: 1; }
+  .container__content--home {
+    color: #fff; }
+  .container__title {
+    background-color: purple;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 3rem; }
+  .container__description {
+    background-color: palevioletred;
+    font-size: 2rem;
+    font-weight: 400; }
