@@ -47,16 +47,15 @@
     }
 
     &__title {
-        background-color: purple;
         font-size: 2rem;
         font-weight: 600;
-        margin-bottom: 3rem;
+        flex: 0 0 20%;
     }
 
     &__description {
-        background-color: palevioletred;
         font-size: 2rem;
         font-weight: 400;
+        flex: 0 0 30%;
     }
 
     
