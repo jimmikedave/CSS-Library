@@ -19,6 +19,7 @@ export default function App() {
         <div className="content">
           <SideNavigation />
           <Switch>
+            {/* Add redirect option "/" to "/home" */}
             <Route exact path="/home" component={Home} />
             <Route exact path="/flex-direction" component={FlexDirection} />
             <Route exact path="/modern-landing" component={ModernLanding} />

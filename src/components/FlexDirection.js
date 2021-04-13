@@ -6,6 +6,8 @@ const FlexDirection = () => {
             <div className="container__content">
                 Flex Direction
             </div>
+            {/* Create 4 boxes that will change due to flex direction options */}
+            
         </div>
     )
 }

@@ -10,6 +10,7 @@ const Home = () => {
                 <div className="container__description">
                     <p>CSS effects are tested and kept here for future development.</p>
                 </div>
+                {/* Add a fun image */}
             </div>
         </div>
     )

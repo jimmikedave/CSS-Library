@@ -6,6 +6,8 @@ const Hover = () => {
             <div className="container__content">
                 Hover!
             </div>
+
+            {/* Create a 4x4 box of boxes with different hover effects */}
         </div>
     )
 }
