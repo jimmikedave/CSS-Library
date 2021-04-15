@@ -27,6 +27,68 @@ body {
   background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
   min-height: 100vh; }
 
+.flex__container {
+  width: 80%;
+  height: 80%;
+  border: 5px #000 solid; }
+
+.flex__box--1 {
+  background-color: #6a00ce; }
+
+.flex__box--2 {
+  background-color: #0192f3; }
+
+.flex__box--3 {
+  background-color: #a10028; }
+
+.flex__box--4 {
+  background-color: #dbba5d; }
+
+.app-container {
+  max-width: 120rem;
+  margin: 8rem auto;
+  font-size: 1.4rem;
+  background-color: #02772f;
+  min-height: 50rem; }
+
+.content {
+  display: flex;
+  min-height: 80vh; }
+
+.side-nav {
+  font-size: inherit;
+  background-color: var(--color-grey-dark-1);
+  flex: 0 0 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+
+.container {
+  font-size: inherit;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1; }
+  .container__content {
+    border: 1px solid peru;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; }
+  .container__content--home {
+    color: #fff; }
+  .container__title {
+    font-size: 2rem;
+    font-weight: 600;
+    flex: 0 0 20%; }
+  .container__description {
+    font-size: 2rem;
+    font-weight: 400;
+    flex: 0 0 30%; }
+
 .navigation {
   font-size: 1.4rem;
   list-style: none;
@@ -64,46 +126,3 @@ body {
   color: var(--color-grey-dark-2);
   text-align: 2.5rem;
   padding: 2.5rem; }
-
-.app-container {
-  max-width: 120rem;
-  margin: 8rem auto;
-  font-size: 1.4rem;
-  background-color: #02772f;
-  min-height: 50rem; }
-
-.content {
-  display: flex;
-  min-height: 80vh; }
-
-.side-nav {
-  font-size: inherit;
-  background-color: var(--color-grey-dark-1);
-  flex: 0 0 18%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center; }
-
-.container {
-  font-size: inherit;
-  border: 2px solid red;
-  display: flex;
-  flex: 1; }
-  .container__content {
-    border: 1px solid peru;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1; }
-  .container__content--home {
-    color: #fff; }
-  .container__title {
-    font-size: 2rem;
-    font-weight: 600;
-    flex: 0 0 20%; }
-  .container__description {
-    font-size: 2rem;
-    font-weight: 400;
-    flex: 0 0 30%; }
