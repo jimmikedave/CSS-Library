@@ -1,0 +1,27 @@
+.flex {
+    
+    &__container {
+        width: 80%;
+        height: 80%;
+        border: 5px #000 solid;
+    }
+
+    &__box {
+        
+        &--1 {
+            background-color: rgb(106, 0, 206);
+        }
+
+        &--2 {
+            background-color: rgb(1, 146, 243);
+        }
+
+        &--3 {
+            background-color: rgb(161, 0, 40);
+        }
+
+        &--4 {
+            background-color: rgb(219, 186, 93);
+        }
+    }
+}
