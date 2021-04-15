@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Redirect,
   Link
 } from 'react-router-dom';
 
@@ -20,6 +21,9 @@ export default function App() {
           <SideNavigation />
           <Switch>
             {/* Add redirect option "/" to "/home" */}
+            <Route exact path="/">
+              <Redirect to="/home"/>
+            </Route>
             <Route exact path="/home" component={Home} />
             <Route exact path="/flex-direction" component={FlexDirection} />
             <Route exact path="/modern-landing" component={ModernLanding} />
