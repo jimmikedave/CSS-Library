@@ -4,10 +4,16 @@
         width: 80%;
         height: 80%;
         border: 5px #000 solid;
+
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-evenly;
     }
 
     &__box {
-        
+        width: 10rem;
+        height: 10rem;
         &--1 {
             background-color: rgb(106, 0, 206);
         }

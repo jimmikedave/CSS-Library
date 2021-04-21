@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div className="container">
+        <div className="container container--home">
             <div className="container__content container__content--home">
                 <div className="container__title">
                     <h1>Welcome to Jim David's CSS Library</h1>

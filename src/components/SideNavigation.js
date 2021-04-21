@@ -16,7 +16,7 @@ const SideNavigation = () => {
                 <li className="navigation__item">
                     <NavLink 
                         className="navigation__link"
-                        to="/flex-direction"
+                        to="/flexbox"
                     >
                         <span>Flex Direction</span>
                     </NavLink>
