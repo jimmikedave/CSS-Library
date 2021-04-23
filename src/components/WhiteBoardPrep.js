@@ -1,15 +1,15 @@
 import React from 'react';
 
-const Hover = () => {
+const WhiteBoardPrep = () => {
     return (
         <div className="container">
             <div className="container__content">
-                Hover!
+                Prep
             </div>
 
-            {/* Create a 4x4 box of boxes with different hover effects */}
+            
         </div>
     )
 }
 
-export default Hover;
+export default WhiteBoardPrep;

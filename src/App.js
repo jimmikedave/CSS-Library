@@ -11,7 +11,7 @@ import SideNavigation from './components/SideNavigation';
 import Home from './components/Home';
 import FlexBox from './components/FlexBox';
 import ModernLanding from './components/ModernLanding';
-import Hover from './components/Hover';
+import WhiteBoardPrep from './components/WhiteBoardPrep';
 
 export default function App() {
   return (
@@ -27,7 +27,7 @@ export default function App() {
             <Route exact path="/home" component={Home} />
             <Route exact path="/flexbox" component={FlexBox} />
             <Route exact path="/modern-landing" component={ModernLanding} />
-            <Route exact path="/hover" component={Hover} />
+            <Route exact path="/whiteboard-prep" component={WhiteBoardPrep} />
           </Switch>
         </div>
       </div>

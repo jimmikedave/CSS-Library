@@ -32,9 +32,9 @@ const SideNavigation = () => {
                 <li className="navigation__item">
                     <NavLink 
                         className="navigation__link"
-                        to="/hover"
+                        to="/whiteboard-prep"
                     >
-                        <span>Hover</span>
+                        <span>Whiteboard Prep</span>
                     </NavLink>
                 </li>
             </ul>

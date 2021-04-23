@@ -93,6 +93,16 @@ body {
     font-weight: 400;
     flex: 0 0 30%; }
 
+.modern__container {
+  width: 80%;
+  height: 80%;
+  border: 5px #000 solid; }
+
+.modern__heading {
+  border: solid 3px aqua;
+  width: 80%;
+  display: flex; }
+
 .navigation {
   font-size: 1.4rem;
   list-style: none;

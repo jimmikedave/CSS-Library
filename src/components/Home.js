@@ -9,8 +9,10 @@ const Home = () => {
                 </div>
                 <div className="container__description">
                     <p>CSS effects are tested and kept here for future development.</p>
+                    
                 </div>
                 {/* Add a fun image */}
+                <p>... and maybe page for practicing whiteboard questions.</p>
             </div>
         </div>
     )
