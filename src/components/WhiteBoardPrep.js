@@ -1,8 +1,64 @@
 import React from 'react';
 
+const WhiteBoardPrep = () => {
+// Palindrome Problem 1
+// Given a string , return true if the string is a palindrome and false if it isnt.
+// Include spaces and punctuation in deciding if the string is a palindrome.
+// (Palindrome is a word that is the same backwards as it is forwards)
+
+
+// Fibonacci Problem 2
+// Write a function that returns the nth entry in the Fibonacci sequence, where n is a number 
+// you pass in as an argument to the function. (n = index)
+// [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+
+// n = 3 
+// solution = 2
+
+
+// FizzBuzz Problem 3
+// Write a function that does the following
+// 1) Console logs the numbers from 1 to n, where n is the integer the function takes as its
+// parameter.
+// 2) Logs fizz instead of the number for multiples of 3.
+// 3) Logs buzz instead of the number for multiples of 5.
+// 4) Logs fizzbuzz for numbers that are multiples of both 3 and 5.
+
+
+
+// Anagram Problem 4
+// A word is an anagram of another word if both use the same letters in the same quantity, 
+// but arranged differently.
+// Write a function that checks if two provided strings are anagrams of each other; letter
+// casing shouldn't matter. Also, consider only characters, not spaces or punctuation.
+// ['finder', 'friend'] & ['hello', 'bye']
+
+
+
+// Find the Vowels Problem 5
+// Write a function that takes a string as an argument and returns the number of 
+// vowels contained in that string.
+// hello --> 2
+// why --> 0
+
+
+
+
+    return (
+        <div className="container">
+            <div className="container__content">
+                <h1>Send whiteboard answers to the console for now</h1>
+            </div>
+        </div>
+    )
+}
+
 // Palindrome Problem 1
 // Given a string , return true if the string is a palindome and false if it isnt.
 // Include spaces and punctuation in deciding if the string is a palindrome.
+// racecar - true | anna - true
+// table - flase | john - false
+
 // Solution
 // const palindrome = str => {
 //     str = str.toLowerCase()
@@ -34,7 +90,7 @@ import React from 'react';
 //     return result[num]
 //   }
 
-// Solution 2
+// Solution 2 *recursion
 // const fibonacci = num => {
 //     // if num is either 0 or 1 return num
 //     if(num < 2) {
@@ -143,16 +199,5 @@ import React from 'react';
 //     return matched ? matches.length : 0
 //   }
 
-const WhiteBoardPrep = () => {
-    return (
-        <div className="container">
-            <div className="container__content">
-                Prep
-            </div>
-
-            
-        </div>
-    )
-}
 
 export default WhiteBoardPrep;
