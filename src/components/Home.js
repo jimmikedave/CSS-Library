@@ -12,7 +12,7 @@ const Home = () => {
                     
                 </div>
                 {/* Add a fun image */}
-                <p>... and maybe page for practicing whiteboard questions.</p>
+                <p>... and maybe a page for practicing whiteboard questions.</p>
             </div>
         </div>
     )
