@@ -1,3 +1,4 @@
+import { findByPlaceholderText } from '@testing-library/dom';
 import React from 'react';
 
 const WhiteBoardPrep = () => {
@@ -5,6 +6,7 @@ const WhiteBoardPrep = () => {
 // Given a string , return true if the string is a palindrome and false if it isnt.
 // Include spaces and punctuation in deciding if the string is a palindrome.
 // (Palindrome is a word that is the same backwards as it is forwards)
+// ex. racecar
 
 
 // Fibonacci Problem 2
@@ -15,6 +17,12 @@ const WhiteBoardPrep = () => {
 // n = 3 
 // solution = 2
 
+// Iterative
+
+
+// Recursive
+
+
 
 // FizzBuzz Problem 3
 // Write a function that does the following
@@ -23,6 +31,10 @@ const WhiteBoardPrep = () => {
 // 2) Logs fizz instead of the number for multiples of 3.
 // 3) Logs buzz instead of the number for multiples of 5.
 // 4) Logs fizzbuzz for numbers that are multiples of both 3 and 5.
+
+// fizz read for 3
+// buzz read for 5
+// fizzbuzz read for 3 & 5
 
 
 
@@ -34,13 +46,23 @@ const WhiteBoardPrep = () => {
 // ['finder', 'friend'] & ['hello', 'bye']
 
 
-
 // Find the Vowels Problem 5
 // Write a function that takes a string as an argument and returns the number of 
 // vowels contained in that string.
 // hello --> 2
 // why --> 0
+const vowelCounter = (word) => {
+    const vowels = ['a', 'e', 'i', 'o', 'u'];
+    let count = 0;
+    for(let char of word) {
+        if(vowels.includes(char)) {
+            count += 1;
+        }
+    }
+    return console.log(count);
+}
 
+vowelCounter('hello');
 
 
 
