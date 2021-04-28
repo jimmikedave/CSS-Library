@@ -7,8 +7,8 @@ const ModernLanding = () => {
             <h1 container__heading>Modern Landing</h1>
             <div className="container__content">
                 <div className="modern__container">
-                    <header>
-                        <div className="modern__heading">Header</div>
+                    <header className="modern__header">
+                            <h3>Header</h3>
                     </header>
                     <div className="modern__content">
                         <div className="modern__sidebar-container">
@@ -20,7 +20,7 @@ const ModernLanding = () => {
                                 <div className="modern__paragraphs--2">Paragraph 2</div>
                             </div>
                             <div className="modern__main-content-container">
-                                <div className="modern__main-content-container">Main Content</div>
+                                <div className="modern__main-content">Main Content</div>
                             </div>
                         </div>
                     </div>
