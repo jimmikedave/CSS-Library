@@ -1,5 +1,7 @@
 import React from 'react';
 
+// Add state with useState in this component to adjust CSS settings
+
 const FlexBox = () => {
     return (
         <div className="container">
