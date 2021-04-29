@@ -25,9 +25,9 @@ const ModernLanding = () => {
                         </div>
                     </div>
                     
-                    <div className="modern__footer-container">
-                        <div className="modern__footer">Footer</div>
-                    </div>
+                    <footer className="modern__footer">
+                        Footer
+                    </footer>
                 </div>
             </div>
         </div>
