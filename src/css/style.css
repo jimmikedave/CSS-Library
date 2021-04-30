@@ -114,14 +114,16 @@ body {
     color: #fff;
     display: flex;
     flex-direction: column; }
-  .container__title {
-    font-size: 2rem;
-    font-weight: 600;
-    flex: 0 0 20%; }
   .container__description {
     font-size: 2rem;
     font-weight: 400;
     flex: 0 0 30%; }
+  .container__heading {
+    margin-top: 5rem; }
+  .container__title {
+    font-size: 2rem;
+    font-weight: 600;
+    flex: 0 0 20%; }
 
 .modern__container {
   width: 80%;

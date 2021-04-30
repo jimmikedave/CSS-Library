@@ -4,7 +4,7 @@ const ModernLanding = () => {
     //Create the layout for basic modern landing 
     return (
         <div className="container">
-            <h1 container__heading>Modern Landing</h1>
+            <h1 className="container__heading">Modern Landing</h1>
             <div className="container__content">
                 <div className="modern__container">
                     <header className="modern__header">
