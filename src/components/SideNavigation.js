@@ -32,6 +32,14 @@ const SideNavigation = () => {
                 <li className="navigation__item">
                     <NavLink 
                         className="navigation__link"
+                        to="/hover"
+                    >
+                        <span>Hover</span>
+                    </NavLink>
+                </li>
+                <li className="navigation__item">
+                    <NavLink 
+                        className="navigation__link"
                         to="/whiteboard-prep"
                     >
                         <span>Whiteboard Prep</span>
