@@ -78,6 +78,25 @@ body {
   .flex__btn:focus {
     outline: none; }
 
+.hover__container {
+  width: 80%;
+  height: 80%;
+  border: solid 3px #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.hover__row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.hover__box {
+  background-color: #1400cc;
+  height: 10rem;
+  width: 10rem; }
+
 .app-container {
   max-width: 120rem;
   margin: 8rem auto;
