@@ -32,9 +32,16 @@ body {
   height: 80%;
   border: 5px #000 solid;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: space-evenly; }
+  .flex__container--row {
+    flex-direction: row; }
+  .flex__container--column {
+    flex-direction: column; }
+  .flex__container--row-reverse {
+    flex-direction: row-reverse; }
+  .flex__container--column-reverse {
+    flex-direction: column-reverse; }
 
 .flex__box {
   width: 10rem;
@@ -47,6 +54,29 @@ body {
     background-color: #a10028; }
   .flex__box--4 {
     background-color: #dbba5d; }
+
+.flex__btn {
+  height: 5rem;
+  width: 10rem;
+  border-radius: 1rem;
+  border-style: none;
+  padding: 3rem;
+  margin: 3rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .flex__btn-container {
+    margin-bottom: 3rem; }
+  .flex__btn-list {
+    width: 50rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-around; }
+  .flex__btn:hover {
+    cursor: pointer; }
+  .flex__btn:focus {
+    outline: none; }
 
 .app-container {
   max-width: 120rem;
