@@ -1,4 +1,3 @@
-import { findByPlaceholderText } from '@testing-library/dom';
 import React from 'react';
 
 const WhiteBoardPrep = () => {
