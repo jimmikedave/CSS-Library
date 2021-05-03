@@ -11,7 +11,9 @@ const Hover = () => {
                         <div className="hover__box hover__box--3"></div>
                     </div>
                     <div className="hover__row">
-                        <div className="hover__box hover__box--4"></div>
+                        <div className="hover__box hover__box--4">
+                            <div className="hover__box--4-icon"></div>
+                        </div>
                         <div className="hover__box hover__box--5"></div>
                         <div className="hover__box hover__box--6"></div>
                     </div>
