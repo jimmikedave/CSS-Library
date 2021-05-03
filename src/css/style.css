@@ -95,7 +95,39 @@ body {
 .hover__box {
   background-color: #1400cc;
   height: 10rem;
-  width: 10rem; }
+  width: 10rem;
+  cursor: pointer; }
+  .hover__box--1 {
+    transition: all .2s;
+    position: relative;
+    animation: moveInBottom .5s ease-out .75s;
+    animation-fill-mode: backwards; }
+    .hover__box--1:hover {
+      background-color: #61a6ff;
+      transform: translateY(-5px);
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3); }
+      .hover__box--1:hover::after {
+        background-color: #97c4ff;
+        transform: scaleX(1.4) scaleY(1.6);
+        opacity: 0; }
+    .hover__box--1::after {
+      content: "";
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transition: all .4s; }
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
 
 .app-container {
   max-width: 120rem;

@@ -21,5 +21,50 @@
         background-color: rgb(20, 0, 204);
         height: 10rem;
         width: 10rem;
+        cursor: pointer;
+
+        &--1 {
+            transition: all .2s;
+            position: relative;
+
+            animation: moveInBottom .2s ease-out .75s; 
+            animation-fill-mode: backwards; 
+            
+            &:hover { 
+                background-color: #61a6ff;
+                transform: translateY(-5px);
+                box-shadow: 0 1rem 2rem rgba(#000, .3);
+
+                &::after {
+                    background-color: #97c4ff;
+                    transform: scaleX(1.4) scaleY(1.6);
+                    opacity: 0;
+                }
+            }
+
+            &::after {
+                content: ""; 
+                display: inline-block;
+                height: 100%;
+                width: 100%;
+                position: absolute; 
+                top: 0;
+                left: 0;
+                z-index: -1; 
+                transition: all .4s;
+            }
+        }
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(2rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
     }
 }
