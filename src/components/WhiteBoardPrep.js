@@ -61,7 +61,7 @@ const WhiteBoardPrep = () => {
         </div>
     )
 }
-
+ 
 // Palindrome Problem 1
 // Given a string , return true if the string is a palindome and false if it isnt.
 // Include spaces and punctuation in deciding if the string is a palindrome.
