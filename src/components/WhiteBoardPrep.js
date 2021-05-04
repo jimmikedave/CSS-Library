@@ -8,6 +8,7 @@ const WhiteBoardPrep = () => {
 // ex. racecar
 
 
+
 // Fibonacci Problem 2
 // Write a function that returns the nth entry in the Fibonacci sequence, where n is a number 
 // you pass in as an argument to the function. (n = index)
@@ -50,19 +51,6 @@ const WhiteBoardPrep = () => {
 // vowels contained in that string.
 // hello --> 2
 // why --> 0
-const vowelCounter = (word) => {
-    const vowels = ['a', 'e', 'i', 'o', 'u'];
-    let count = 0;
-    for(let char of word) {
-        if(vowels.includes(char)) {
-            count += 1;
-        }
-    }
-    return console.log(count);
-}
-
-vowelCounter('hello');
-
 
 
     return (
