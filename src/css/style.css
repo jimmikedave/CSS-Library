@@ -325,3 +325,12 @@ body {
   color: var(--color-grey-dark-2);
   text-align: 2.5rem;
   padding: 2.5rem; }
+
+.whiteboard__container {
+  height: 80vh;
+  padding: 10rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; }

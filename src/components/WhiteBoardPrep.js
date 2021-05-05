@@ -1,11 +1,25 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 
 const WhiteBoardPrep = () => {
+const [answer, setAnswer] = useState('');
+
 // Palindrome Problem 1
-// Given a string , return true if the string is a palindrome and false if it isnt.
-// Include spaces and punctuation in deciding if the string is a palindrome.
-// (Palindrome is a word that is the same backwards as it is forwards)
-// ex. racecar
+const question = `Given a string , return true if the string is a palindrome and false if it isnt.
+Include spaces and punctuation in deciding if the string is a palindrome.
+(Palindrome is a word that is the same backwards as it is forwards)
+ex. racecar`;
+
+const isPalindrome = (word) => {
+    const palindrome = word.split('').reverse().join('');
+
+    if(palindrome === word) {
+        setAnswer('true');
+    }
+}
+
+useEffect(() => {
+    isPalindrome('racecar')
+})
 
 
 
@@ -18,6 +32,8 @@ const WhiteBoardPrep = () => {
 // solution = 2
 
 // Iterative
+
+
 
 
 // Recursive
@@ -38,12 +54,15 @@ const WhiteBoardPrep = () => {
 
 
 
+
 // Anagram Problem 4
 // A word is an anagram of another word if both use the same letters in the same quantity, 
 // but arranged differently.
 // Write a function that checks if two provided strings are anagrams of each other; letter
 // casing shouldn't matter. Also, consider only characters, not spaces or punctuation.
 // ['finder', 'friend'] & ['hello', 'bye']
+
+
 
 
 // Find the Vowels Problem 5
@@ -53,10 +72,14 @@ const WhiteBoardPrep = () => {
 // why --> 0
 
 
+
     return (
         <div className="container">
             <div className="container__content">
-                <h1>Send whiteboard answers to the console for now</h1>
+                <div className="whiteboard__container">
+                    <h1>{question}</h1>
+                    <h2>Function output: {answer}</h2>
+                </div> 
             </div>
         </div>
     )
