@@ -5,15 +5,19 @@ const [answer, setAnswer] = useState('');
 
 // Palindrome Problem 1
 const question = `Given a string , return true if the string is a palindrome and false if it isnt.
-Include spaces and punctuation in deciding if the string is a palindrome.
-(Palindrome is a word that is the same backwards as it is forwards)
-ex. racecar`;
+    Include spaces and punctuation in deciding if the string is a palindrome.
+    (Palindrome is a word that is the same backwards as it is forwards)
+    // ex. racecar`;
 
 const isPalindrome = (word) => {
+    // split the char
+    // reverse array
+    // join for comparison
     const palindrome = word.split('').reverse().join('');
-
-    if(palindrome === word) {
+    if (palindrome === word) {
         setAnswer('true');
+    } else {
+        setAnswer('false');
     }
 }
 
@@ -24,54 +28,53 @@ useEffect(() => {
 
 
 // Fibonacci Problem 2
-// Write a function that returns the nth entry in the Fibonacci sequence, where n is a number 
-// you pass in as an argument to the function. (n = index)
-// [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
-
-// n = 3 
-// solution = 2
-
+// const question = `Write a function that returns the nth entry in the Fibonacci sequence, where n is a number 
+//     you pass in as an argument to the function. (n = index)
+//     [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]`;
 // Iterative
-
-
-
 
 // Recursive
 
-
+// useEffect(() => {
+//     fibonacci(6)
+// })
 
 // FizzBuzz Problem 3
-// Write a function that does the following
-// 1) Console logs the numbers from 1 to n, where n is the integer the function takes as its
-// parameter.
-// 2) Logs fizz instead of the number for multiples of 3.
-// 3) Logs buzz instead of the number for multiples of 5.
-// 4) Logs fizzbuzz for numbers that are multiples of both 3 and 5.
-
-// fizz read for 3
-// buzz read for 5
-// fizzbuzz read for 3 & 5
+// const question = `Write a function that does the following
+//     1) Console logs the numbers from 1 to n, where n is the integer the function takes as its
+//     parameter.
+//     2) Logs fizz instead of the number for multiples of 3.
+//     3) Logs buzz instead of the number for multiples of 5.
+//     4) Logs fizzbuzz for numbers that are multiples of both 3 and 5.`
 
 
-
+// useEffect(() => {
+//     fizzbuzz(15)
+// })
 
 // Anagram Problem 4
-// A word is an anagram of another word if both use the same letters in the same quantity, 
-// but arranged differently.
-// Write a function that checks if two provided strings are anagrams of each other; letter
-// casing shouldn't matter. Also, consider only characters, not spaces or punctuation.
-// ['finder', 'friend'] & ['hello', 'bye']
+// const question = `A word is an anagram of another word if both use the same letters in the same quantity, 
+//     but arranged differently.
+//     Write a function that checks if two provided strings are anagrams of each other; letter
+//     casing shouldn't matter. Also, consider only characters, not spaces or punctuation.
+//     ['finder', 'friend'] & ['hello', 'bye']`;
 
 
-
+// useEffect(() => {
+//     isAnagram('friend', 'finder');
+// });
 
 // Find the Vowels Problem 5
-// Write a function that takes a string as an argument and returns the number of 
-// vowels contained in that string.
-// hello --> 2
-// why --> 0
+// const question = `Write a function that takes a string as an argument and returns the number of 
+//     vowels contained in that string.
+//     hello --> 2
+//     why --> 0`;
 
 
+
+// useEffect(() => {
+//     countVowels('dogecoin');
+// })
 
     return (
         <div className="container">
