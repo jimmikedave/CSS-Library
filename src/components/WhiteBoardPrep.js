@@ -4,26 +4,18 @@ const WhiteBoardPrep = () => {
 const [answer, setAnswer] = useState('');
 
 // Palindrome Problem 1
-const question = `Given a string , return true if the string is a palindrome and false if it isnt.
-    Include spaces and punctuation in deciding if the string is a palindrome.
-    (Palindrome is a word that is the same backwards as it is forwards)
-    // ex. racecar`;
+// const question = `Given a string , return true if the string is a palindrome and false if it isnt.
+//     Include spaces and punctuation in deciding if the string is a palindrome.
+//     (Palindrome is a word that is the same backwards as it is forwards)
+//     // ex. racecar`;
 
-const isPalindrome = (word) => {
-    // split the char
-    // reverse array
-    // join for comparison
-    const palindrome = word.split('').reverse().join('');
-    if (palindrome === word) {
-        setAnswer('true');
-    } else {
-        setAnswer('false');
-    }
-}
+// const isPalindrome = (word) => {
+    
+// }
 
-useEffect(() => {
-    isPalindrome('racecar')
-})
+// useEffect(() => {
+//     isPalindrome('racecar')
+// })
 
 
 
@@ -32,11 +24,21 @@ useEffect(() => {
 //     you pass in as an argument to the function. (n = index)
 //     [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]`;
 // Iterative
+// const fibonacci = (num) => {
+    
+    
+// }
 
 // Recursive
+// const fibonacci = (num) => {
+//     if (num < 2) {
+//         return num
+//     }
+//     return fibonacci(num - 1) + fibonacci(num - 2);
+// }
 
 // useEffect(() => {
-//     fibonacci(6)
+//     setAnswer(fibonacci(3));
 // })
 
 // FizzBuzz Problem 3
@@ -46,6 +48,10 @@ useEffect(() => {
 //     2) Logs fizz instead of the number for multiples of 3.
 //     3) Logs buzz instead of the number for multiples of 5.
 //     4) Logs fizzbuzz for numbers that are multiples of both 3 and 5.`
+
+// const fizzbuzz = (num) => {
+
+// }
 
 
 // useEffect(() => {
@@ -59,22 +65,32 @@ useEffect(() => {
 //     casing shouldn't matter. Also, consider only characters, not spaces or punctuation.
 //     ['finder', 'friend'] & ['hello', 'bye']`;
 
+// const isAnagram = (wordOne, wordTwo) => {
+
+// }
 
 // useEffect(() => {
 //     isAnagram('friend', 'finder');
 // });
 
 // Find the Vowels Problem 5
-// const question = `Write a function that takes a string as an argument and returns the number of 
-//     vowels contained in that string.
-//     hello --> 2
-//     why --> 0`;
+const question = `Write a function that takes a string as an argument and returns the number of 
+    vowels contained in that string.
+    hello --> 2
+    why --> 0`;
 
+// const countVowels = (string) => {
+    
+// }
 
 
 // useEffect(() => {
 //     countVowels('dogecoin');
 // })
+
+
+// CREATE A COUNTER ELEMENT
+
 
     return (
         <div className="container">
