@@ -74,10 +74,10 @@ const [answer, setAnswer] = useState('');
 // });
 
 // Find the Vowels Problem 5
-const question = `Write a function that takes a string as an argument and returns the number of 
-    vowels contained in that string.
-    hello --> 2
-    why --> 0`;
+// const question = `Write a function that takes a string as an argument and returns the number of 
+//     vowels contained in that string.
+//     hello --> 2
+//     why --> 0`;
 
 // const countVowels = (string) => {
     
@@ -90,7 +90,7 @@ const question = `Write a function that takes a string as an argument and return
 
 
 // CREATE A COUNTER ELEMENT
-
+const question = `Please create a counter element with increase and decrease buttons.`
 
     return (
         <div className="container">
