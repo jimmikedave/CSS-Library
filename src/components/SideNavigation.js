@@ -24,9 +24,17 @@ const SideNavigation = () => {
                 <li className="navigation__item">
                     <NavLink 
                         className="navigation__link"
-                        to="/modern-landing"
+                        to="/modern-landing-flexbox"
                     >
-                        <span>Modern Landing</span>
+                        <span>ML Flexbox</span>
+                    </NavLink>
+                </li>
+                <li className="navigation__item">
+                    <NavLink 
+                        className="navigation__link"
+                        to="/modern-landing-grid"
+                    >
+                        <span>ML Grid</span>
                     </NavLink>
                 </li>
                 <li className="navigation__item">
