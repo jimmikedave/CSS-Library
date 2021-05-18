@@ -28,7 +28,7 @@ export default function App() {
             </Route>
             <Route exact path="/home" component={Home} />
             <Route exact path="/flexbox" component={FlexBox} />
-            <Route exact path="/modern-landing-flex-box" component={ModernLanding} />
+            <Route exact path="/modern-landing-flexbox" component={ModernLanding} />
             <Route exact path="/modern-landing-grid" component={Grid} />
             <Route exact path="/hover" component={Hover} />
             <Route exact path="/whiteboard-prep" component={WhiteBoardPrep} />
