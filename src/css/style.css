@@ -82,7 +82,20 @@ body {
   width: 80%;
   height: 80%;
   border: 5px #000 solid;
-  color: #fff; }
+  color: #fff;
+  display: grid; }
+
+.grid__header {
+  background-color: #00ffff; }
+
+.grid__sidebar {
+  background-color: #e5ff00; }
+
+.grid__main-container {
+  background-color: #8c00ff; }
+
+.grid__footer {
+  background-color: #ff5e00; }
 
 .hover__container {
   width: 80%;

@@ -4,5 +4,23 @@
         height: 80%;
         border: 5px #000 solid;
         color: #fff;
+
+        display: grid;
+    }
+
+    &__header {
+        background-color: #00ffff;
+    }
+
+    &__sidebar {
+        background-color: #e5ff00;
+    }
+
+    &__main-container {
+        background-color: #8c00ff;
+    }
+
+    &__footer {
+        background-color: rgb(255, 94, 0);
     }
 }
