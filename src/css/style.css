@@ -78,6 +78,12 @@ body {
   .flex__btn:focus {
     outline: none; }
 
+.grid__container {
+  width: 80%;
+  height: 80%;
+  border: 5px #000 solid;
+  color: #fff; }
+
 .hover__container {
   width: 80%;
   height: 80%;
