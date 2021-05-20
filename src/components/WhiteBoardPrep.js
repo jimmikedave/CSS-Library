@@ -92,6 +92,28 @@ const [answer, setAnswer] = useState('');
 // CREATE A COUNTER ELEMENT
 const question = `Please create a counter element with increase and decrease buttons.`
 
+// # Timer Challenge
+
+// Please create a small application that incorporates the features below with any language/framework that you are most comfortable with.
+
+// Don't worry about styling. We can add styles if we have time!
+
+// ## Page 1
+
+// - After 3 seconds Component 1 should be displayed.
+
+// ## Component 1
+
+// - There should be two buttons.
+// - Button 1 should hide the component and restart the 3 second timer.
+
+// - Button 2 should start a 5 second timer. When that 5 second timer finishes, Component 2 should appear.
+
+// ## Component 2
+
+// - There should be one button.
+// - Button 1 should hide Component 2.
+
     return (
         <div className="container">
             <div className="container__content">
